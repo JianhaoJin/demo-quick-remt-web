@@ -1,0 +1,162 @@
+.focus-input100 {
+	position: absolute;
+	display: block;
+	top: 17px;
+	left: 120px;
+	pointer-events: none;
+}
+.boxer {
+	background: #fff url(./../../../assets/bg.png) no-repeat ;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	font-family:"微软雅黑","宋体",Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color: #333;
+}
+.box1 {
+	width: 70%;
+	margin:0 auto;
+	overflow: hidden;
+	box-shadow: 0px 0px 13px 5px rgba(14,25,80,.2);
+	border-radius: 10px;
+	margin-top: 10vh;
+}
+.middle1 {
+	overflow: hidden;
+}
+.middle_left {
+	float: left;
+	width: 50%;
+	height: 80vh;
+	background: url('./../../../assets/login@1x.png') no-repeat;
+	background-size: cover;
+}
+.border-red{
+	color:red;
+	font-size:12px;
+	border:none;
+	width:325px;
+	padding: 0px;
+}
+.middle_right {
+	width: 50%;
+	float: right;
+	height: 80vh;
+	background: #fff;
+	position: relative;
+}
+.form-box{
+	position: absolute;
+	height: 311px;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.input-icon-login{
+	height: 38px;
+	width: 14px;
+	margin-left: 0px;
+	color: #000;
+}
+.h2-logo-name {
+	font-size:30px;
+	font-weight:normal;
+	margin-top:0;
+	padding:0;
+	color: #0092e7;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+	display: block;
+	text-align: center;
+}
+input::-webkit-input-placeholder {
+	color: #c1c1c1;
+}
+.form-group {
+	margin-bottom: 44px;
+	position: relative;
+}
+.form-control {
+	height: 48px;
+	width: 325px;
+	border: none;
+	border-bottom: 1px solid #e6e6e6;
+	padding-left: 30px;
+	margin: 0 auto;
+	outline:none;
+}
+.login-buttion{
+	height: 45px;
+	width:325px;
+	background: #14a7ff;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.login-buttion:hover {
+	background:#0a98eb;
+	transition: .3s all linear;
+}
+@media screen and (min-width: 960px) and (max-width:1200px){
+.box1 {
+	margin-top: 144px;
+	width: 960px;;
+}
+.middle_left {
+	width: 560px;
+}
+.middle1 {
+    overflow: hidden;
+    height: 470px;
+}
+.middle_right {
+	    width: 400px;
+	    overflow: hidden;
+	    height: 470px;
+}
+.login {
+    margin-top: 20px;
+}
+.form-group {
+    margin-bottom: 36px;
+}
+}
+@media screen and (max-width: 960px) {
+	.box1 {
+		margin-top: 80px;
+		width: 418px;
+	}
+	.mr_box{
+		margin-top: 40px;
+	}
+	.mr_box h2 {
+		margin-bottom: 34px;
+	}
+	.middle_left {
+		display: none;
+		float: none;
+	}
+	.middle_right {
+		float: none;
+		margin: 0 auto;
+		overflow: hidden;
+		height: 470px;
+		width: 418px;
+	}
+	.login {
+		margin-top: 18px;
+	}
+	.form-group {
+		margin-bottom: 28px;
+	}
+
+}

@@ -1,0 +1,6 @@
+export { default as Navbar } from './Navbar'
+export { default as SidebarV } from './Sidebar_vertical/index.vue'
+export { default as SidebarH } from './Sidebar_horizontal/index.vue'
+export { default as TagsView } from './TagsView'
+export { default as AppMain } from './AppMain'
+export { default as Settings} from './Settings'
